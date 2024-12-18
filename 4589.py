@@ -7,5 +7,4 @@ def ran(start, end):
     return product
 
 
-result = ran(5, 2)
-print("Product of numbers in a range:", result)
+print("Product of numbers in a range:", ran(5, 2))

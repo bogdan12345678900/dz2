@@ -3,5 +3,4 @@ def palindrome(number):
     return num_str == num_str[::-1]
 
 
-result = palindrome(123321)
-print("The number is a palindrome", result)
+print("The number is a palindrome", palindrome(123321))
